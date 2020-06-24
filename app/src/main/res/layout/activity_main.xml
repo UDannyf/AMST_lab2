@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grupofab"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabvideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fab_label="Video"
+                android:onClick="video_show"
+                android:src="@drawable/video">
+            </com.github.clans.fab.FloatingActionButton>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabmapa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fab_label="Mapa"
+                android:onClick="mapa_show"
+                android:src="@drawable/mapa">
+            </com.github.clans.fab.FloatingActionButton>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabcalendar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fab_label="Calendario"
+                android:onClick="calendar_show"
+                android:src="@drawable/calendar">
+            </com.github.clans.fab.FloatingActionButton>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabgraph"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fab_label="Gráfico"
+                android:onClick="graph_show"
+                android:src="@drawable/graph">
+            </com.github.clans.fab.FloatingActionButton>
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
