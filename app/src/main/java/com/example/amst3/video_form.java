@@ -2,7 +2,10 @@ package com.example.amst3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 public class video_form extends AppCompatActivity {
 

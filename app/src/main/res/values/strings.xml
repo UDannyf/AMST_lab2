@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AMST3</string>
+    <string name="title_activity_mapa_form">Map</string>
+    <string name="video_view">VIDEO VIEW</string>
 </resources>
